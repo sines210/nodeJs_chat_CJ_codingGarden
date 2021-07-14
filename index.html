@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter_node</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./client/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Meower - Twitter for cats  &#128540;&#128049;</h1>
+    </header>
+    <main>
+        <form class="mew-form">
+            <label for="name">Name</label>
+            <input type="text" autocomplete="off" id="name" name="name" class="u-full-width">
+            <label for="content">Content</label>
+            <textarea name="content" id="content" class="u-full-width"></textarea>
+            <button class="button-primary">Send your mew </button>
+        </form>
+        <div class="loading">
+            <img src="/client/tenor.gif"  alt="loading spinner">
+        </div>
+        <div class="mews"> </div>
+    </main>
+    <script src="./client/client.js"></script>
+</body>
+</html>
